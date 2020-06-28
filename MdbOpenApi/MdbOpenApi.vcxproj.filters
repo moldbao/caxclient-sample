@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MdbConstants">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CMarkup">
+      <UniqueIdentifier>{4619d126-0b72-42a8-abf5-311a1bc2c90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{719a80ee-0999-4cb6-8619-3b3acab2d417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glog">
+      <UniqueIdentifier>{c5c42141-ead8-4b48-9ee5-5b2838127454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{97c2d747-4bec-44a8-93f1-bba0e4f918a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zip">
+      <UniqueIdentifier>{99230dc0-1394-41f7-86f9-e07de3f0ce70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MdbSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdbConstants\MdbConstants.h">
+      <Filter>MdbConstants</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup\Markup.h">
+      <Filter>CMarkup</Filter>
+    </ClInclude>
+    <ClInclude Include="MdbCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\version.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\commandlineflags.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\config.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\googleinit.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\log_severity.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\LogHelper.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\mutex.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\port.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\raw_logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\stl_logging.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\utilities.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\include\vlog_is_on.h">
+      <Filter>glog</Filter>
+    </ClInclude>
+    <ClInclude Include="MdbGlogHelper.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdbHttpHelper.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="MdbWebCamTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipHelper.h">
+      <Filter>Zip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MdbSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdbConstants\MdbConstants.cpp">
+      <Filter>MdbConstants</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup\Markup.cpp">
+      <Filter>CMarkup</Filter>
+    </ClCompile>
+    <ClCompile Include="MdbCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\logging.cc">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\LogHelper.cpp">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\port.cc">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\raw_logging.cc">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\utilities.cc">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="glog\src\vlog_is_on.cc">
+      <Filter>glog</Filter>
+    </ClCompile>
+    <ClCompile Include="MdbHttpHelper.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipHelper.cpp">
+      <Filter>Zip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
